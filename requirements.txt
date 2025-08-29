@@ -1,0 +1,29 @@
+# Core
+numpy
+pillow
+matplotlib
+tqdm
+pandas
+scikit-learn
+scikit-image
+scipy
+opencv-python
+
+# Deep learning
+# Install torch/torchvision matching your CUDA/OS from https://pytorch.org/get-started/locally/
+torch
+torchvision
+segmentation-models-pytorch
+albumentations
+# Albumentations -> PyTorch tensor bridge
+albumentations>=1.3.1
+# Excel writers for pandas exports (either is fine)
+openpyxl
+xlsxwriter
+
+# Optional models
+transformers
+
+# Utilities
+# (no direct import, but common dependency resolvers)
+packaging
