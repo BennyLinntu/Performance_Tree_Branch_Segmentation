@@ -88,7 +88,7 @@ Edit the `model_configs` dictionary inside the script to choose:
 
 Here are some qualitative results from **U-Net++** on the branches dataset:
 
-![U-Net++ Results](results/unet++_prediction_results.png)
+![U-Net++ Results](unet++_prediction_results.png)
 
 ---
 
