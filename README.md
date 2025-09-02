@@ -96,6 +96,14 @@ Inside the script there is a `model_configs` dictionary you can change to select
 
 ---
 
+## Example Prediction Results
+
+Here are some qualitative results from **U-Net++** on the branches dataset:
+
+![U-Net++ Results](results/unet++_prediction_results.png)
+
+---
+
 ## Tips & Troubleshooting
 
 - **CUDA OOM**: the code auto-reduces `BATCH_SIZE` on OOM. You can also lower `image_size` or manually reduce the batch.
